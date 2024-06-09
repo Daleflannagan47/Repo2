@@ -10954,7 +10954,7 @@
                     marginTop: 40,
                     marginRight: 10,
                     marginLeft: 10,
-                    maxWidth: 600,
+                    maxWidth: 700,
                   },
                     children: [
                       (0, c.jsx)("div", {
