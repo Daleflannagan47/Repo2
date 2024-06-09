@@ -8929,7 +8929,7 @@
               left: 0,
               right: 0,
               bottom: 0,
-              backgroundColor: "#F5FFFA",
+              backgroundColor: "rgb(245, 255, 250,0.75)",
             },
             content: {
               position: "absolute",
