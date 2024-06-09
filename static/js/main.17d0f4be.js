@@ -11257,7 +11257,6 @@
                       }),
                       (0, c.jsx)("button", {
                         onClick: a,
-                        style: "bold",
                         children: "X",
                       }),
                     ],
