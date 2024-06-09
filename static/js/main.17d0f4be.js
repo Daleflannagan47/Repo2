@@ -11267,6 +11267,10 @@
                     },
                   }),
                   (0, c.jsx)("div", {
+                    style: {
+                      paddingBottom: 20,
+                    },
+
                     children:
                       "For your security, you must enter your password to continue.",
                   }),
