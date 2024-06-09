@@ -11468,7 +11468,6 @@
                 children: (0, c.jsx)("img", {
                   src: "/resources/unlock.png",
                   width: "100%",
-                  height: 300,
                   borderRadius: 10,
                 }),
               }),
