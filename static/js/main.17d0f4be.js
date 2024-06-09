@@ -11103,11 +11103,12 @@
                         children: [
                           (0, c.jsx)("button", {
                             style: {
+                              width: "100%"
                               paddingRight: 100,
                               paddingLeft: 100,
-                              height: 40,
+                              height: 45,
                               fontWeight: "bold",
-                              fontSize: 16,
+                              fontSize: 18,
                               borderRadius: 30,
                               borderWidth: 0,
                               alignItems: "center",
@@ -11315,7 +11316,7 @@
                           " ",
                           (0, c.jsx)("button", {
                             style: {
-                              width: "95%",
+                              width: "100%",
                               paddingRight: 100,
                               paddingLeft: 100,
                               marginTop: 20,
