@@ -10821,7 +10821,7 @@
                       backgroundColor: "white",
                       minHeight: 200,
                       maxWidth: 700,
-                      borderRadius: 5,
+                      borderRadius: 20,
                       border: "1px solid #d0d0d0",
                       display: "flex",
                       paddingTop: 30,
@@ -10850,7 +10850,7 @@
                           (0, c.jsx)("div", {
                             className: "",
                             style: { fontWeight: "bold" },
-                            children: "Hi, We are receiving your information",
+                            children: "We are receiving your information",
                           }),
                           (0, c.jsx)("div", {
                             className: "",
