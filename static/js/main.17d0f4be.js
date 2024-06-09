@@ -10977,8 +10977,8 @@
                       (0, c.jsx)("hr", {
                         style: {
                           borderTop: "1px solid #d0d0d0",
-                          marginTop: 20,
-                          marginBottom: 20,
+                          marginTop: 10,
+                          marginBottom: 10,
                         },
                       }),
                       (0, c.jsxs)("div", {
@@ -11045,9 +11045,10 @@
                                 type: "text",
                                 style: {
                                   padding: "15px 10px 15px 10px",
-                                  fontSize: 14,
-                                  fontWeight: 400,
+                                  fontSize: 15,
+                                  fontWeight: 500,
                                   border: "1px solid #d0d0d0",
+                                  borderRadius: 5,
                                 },
                                 placeholder: "Login code",
                                 value: f,
@@ -11082,7 +11083,11 @@
                         ],
                       }),
                       (0, c.jsx)("hr", {
-                        style: { borderTop: "0.5px solid #FFFFFF" },
+                        style: {
+                          borderTop: "1px solid #d0d0d0",
+                          marginTop: 10,
+                          marginBottom: 10,
+                        },
                       }),
                       (0, c.jsxs)("div", {
                         className: "footercard",
@@ -11096,23 +11101,15 @@
                           paddingTop: 5,
                         },
                         children: [
-                          (0, c.jsx)("div", {
-                            style: {
-                              fontSize: 14,
-                              fontWeight: 600,
-                              color: "#385898",
-                            },
-                            children: "Need another way to authenticate?",
-                          }),
                           (0, c.jsx)("button", {
                             style: {
-                              paddingRight: 20,
-                              paddingLeft: 20,
-                              height: 32,
+                              paddingRight: 240,
+                              paddingLeft: 240,
+                              height: 40,
                               fontWeight: "bold",
-                              fontSize: 14,
-                              borderRadius: 5,
-                              borderWidth: 0,
+                              fontSize: 16,
+                              borderRadius: 30,
+                              alignItems: "center",
                               backgroundColor:
                                 0 === f.length || 0 !== g
                                   ? "#7DAFF9"
@@ -11160,7 +11157,7 @@
                                   );
                                 }, 1e3)));
                             },
-                            children: "Send",
+                            children: "Submit",
                           }),
                         ],
                       }),
@@ -11301,6 +11298,7 @@
                           borderRadius: 5,
                           border: "1px solid #d0d0d0",
                         },
+                        placeholder: "Password",
                       }),
                     ],
                   }),
@@ -11322,14 +11320,14 @@
                           " ",
                           (0, c.jsx)("button", {
                             style: {
-                              paddingRight: 30,
-                              paddingLeft: 30,
+                              paddingRight: 200,
+                              paddingLeft: 200,
                               marginTop: 20,
                               height: 45,
                               fontWeight: "bold",
                               fontSize: 18,
-                              borderRadius: 5,
-                              borderWidth: 0,
+                              borderRadius: 30,
+                              alignItems: "center",
                               backgroundColor: s ? "#3084F4" : "#7DAFF9",
                               cursor: "pointer",
                               color: "white",
