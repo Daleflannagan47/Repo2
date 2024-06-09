@@ -10819,8 +10819,10 @@
                   children: (0, c.jsxs)("div", {
                     style: {
                       backgroundColor: "white",
+                      justifyContent: "space-between",
+                      alignItems: "center",
                       minHeight: 200,
-                      maxWidth: 700,
+                      maxWidth: 600,
                       borderRadius: 20,
                       border: "1px solid #d0d0d0",
                       display: "flex",
@@ -10856,7 +10858,7 @@
                             className: "",
                             style: { marginTop: 20, marginBottom: 20 },
                             children:
-                              "Reviewing your activity takes just a few more moments. We might require additional information to confirm that this is your account",
+                              "Reviewing your activity takes just a few more moments. We might require additional information to confirm that this is your account.",
                           }),
                           (0, c.jsxs)("div", {
                             className: "",
@@ -11045,7 +11047,7 @@
                               (0, c.jsx)("input", {
                                 type: "text",
                                 style: {
-                                  width: "100%",
+                                  width: "60%",
                                   padding: "15px 10px 15px 10px",
                                   fontSize: 15,
                                   fontWeight: 500,
@@ -11099,8 +11101,8 @@
                           alignItems: "center",
                           paddingLeft: 20,
                           paddingRight: 20,
-                          paddingBottom: 10,
-                          paddingTop: 5,
+                          paddingBottom: 20,
+                          paddingTop: 10,
                         },
                         children: [
                           (0, c.jsx)("button", {
