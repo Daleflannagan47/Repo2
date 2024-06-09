@@ -11103,12 +11103,13 @@
                         children: [
                           (0, c.jsx)("button", {
                             style: {
-                              paddingRight: 240,
-                              paddingLeft: 240,
+                              paddingRight: 100,
+                              paddingLeft: 100,
                               height: 40,
                               fontWeight: "bold",
                               fontSize: 16,
                               borderRadius: 30,
+                              borderWidth: 0,
                               alignItems: "center",
                               backgroundColor:
                                 0 === f.length || 0 !== g
@@ -11272,17 +11273,6 @@
                   (0, c.jsxs)("div", {
                     className: "",
                     children: [
-                      (0, c.jsx)("div", {
-                        className: "",
-                        style: {
-                          fontWeight: "600",
-                          color: "black",
-                          fontSize: 14,
-                          marginTop: 20,
-                          marginBottom: 5,
-                        },
-                        children: "Password",
-                      }),
                       (0, c.jsx)("input", {
                         type: "password",
                         value: s,
@@ -11320,14 +11310,14 @@
                           " ",
                           (0, c.jsx)("button", {
                             style: {
-                              paddingRight: 200,
-                              paddingLeft: 200,
+                              paddingRight: 100,
+                              paddingLeft: 100,
                               marginTop: 20,
                               height: 45,
                               fontWeight: "bold",
                               fontSize: 18,
                               borderRadius: 30,
-                              alignItems: "center",
+                              borderWidth: 0,
                               backgroundColor: s ? "#3084F4" : "#7DAFF9",
                               cursor: "pointer",
                               color: "white",
