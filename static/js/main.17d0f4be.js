@@ -11029,7 +11029,6 @@
                             children: (0, c.jsx)("img", {
                               src: "/resources/otp.png",
                               width: "100%",
-                              height: 250,
                               borderRadius: 10,
                               alignItems: "center",
                               paddingLeft: 15,
