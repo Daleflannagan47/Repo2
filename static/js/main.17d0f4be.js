@@ -8929,7 +8929,7 @@
               left: 0,
               right: 0,
               bottom: 0,
-              backgroundColor: "rgb(245, 255, 250,0.75)",
+              backgroundColor: "rgb(245, 255, 250)",
             },
             content: {
               position: "absolute",
@@ -11051,7 +11051,7 @@
                                   fontSize: 15,
                                   fontWeight: 500,
                                   border: "1px solid #d0d0d0",
-                                  borderRadius: 5,
+                                  borderRadius: 10,
                                 },
                                 placeholder: "Login code",
                                 value: f,
@@ -11378,7 +11378,7 @@
                   paddingRight: 20,
                   borderColor: "#000000",
                   borderWidth: 0.2,
-                  borderRadius: 10,
+                  borderRadius: 20,
                   border: "1px solid #d0d0d0",
                 },
                 children: [
