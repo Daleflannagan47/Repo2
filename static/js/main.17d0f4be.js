@@ -10946,7 +10946,6 @@
                   borderRadius: "25px",
                   outline: "none",
                   padding: "0px",
-                  marginRight: "-50%",
                   transform: "translate(-50%, -50%)",
                   maxwidth: "100%",
                 },
@@ -10957,12 +10956,6 @@
                     marginLeft: 10,
                     maxWidth: 600,
                   },
-                  children: (0, c.jsxs)("div", {
-                    style: {
-                      backgroundColor: "white",
-                      minHeight: 200,
-                      borderRadius: 5,
-                    },
                     children: [
                       (0, c.jsx)("div", {
                         className: "title",
@@ -11044,6 +11037,7 @@
                               (0, c.jsx)("input", {
                                 type: "text",
                                 style: {
+                                  width: "100%",
                                   padding: "15px 10px 15px 10px",
                                   fontSize: 15,
                                   fontWeight: 500,
