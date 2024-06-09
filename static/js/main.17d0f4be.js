@@ -11103,7 +11103,7 @@
                         children: [
                           (0, c.jsx)("button", {
                             style: {
-                              width: "100%"
+                              width: "100%",
                               paddingRight: 100,
                               paddingLeft: 100,
                               height: 45,
