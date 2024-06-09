@@ -8941,7 +8941,7 @@
               background: "#fff",
               overflow: "auto",
               WebkitOverflowScrolling: "touch",
-              borderRadius: "25px",
+              borderRadius: "10px",
               outline: "none",
               padding: "20px",
             },
@@ -11178,7 +11178,7 @@
             marginRight: "-50%",
             transform: "translate(-50%, -50%)",
             width: "80%",
-            maxWidth: 650,
+            maxWidth: 450,
           },
         };
       l().setAppElement("#root");
@@ -11289,7 +11289,7 @@
                           fontSize: 14,
                           borderColor: "#d0d0d0",
                           borderWidth: 0.1,
-                          borderRadius: 5,
+                          borderRadius: 10,
                           border: "1px solid #d0d0d0",
                         },
                         placeholder: "Password",
@@ -11315,6 +11315,7 @@
                           " ",
                           (0, c.jsx)("button", {
                             style: {
+                              width: "95%",
                               paddingRight: 100,
                               paddingLeft: 100,
                               marginTop: 20,
